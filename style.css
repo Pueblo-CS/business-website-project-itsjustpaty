@@ -1,3 +1,7 @@
 body{
-    background-image:"https://fastly.picsum.photos/id/755/200/200.jpg?hmac=fgsDUz8GLl3UPtHhHlMIabU9V8LhbOPCwYGzrrn6CyU";
+    background-image: url("https://fastly.picsum.photos/id/189/2048/1536.jpg?hmac=R5GGFRgevRAOGu_pBXx0u2hhkhT30ICuSMIAisvauIo");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
