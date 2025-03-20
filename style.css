@@ -5,24 +5,41 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+.nav a , #hero, #cta{
+    color:#F8F9FA;
+}
 #header{
     background-color: #386641;
     color: #90a955;
     height:60px:
 }
-.nav a{
-    color:#F8F9FA;
-    text-decoration: none;
-    
+a{
+    text-decoration: none;   
 }
 #hero{
-    color:#F8F9FA;
     text-decoration: none;
 }
 #hero h1{
     font-size:80px;
 }
 
+a:hover{
+    text-decoration: underline
+}
 #cta{
+  background-color:#386641;
+}
 
+#cta:hover{
+    background-color:#F8F9FA;
+    color:#5D6C25;
+}
+
+#prouducts{
+    background-color:#90a955;
+}
+
+.card{
+    background-color: #F8F9FA;
 }
