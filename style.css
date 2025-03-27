@@ -4,28 +4,37 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    margin:0px;
 }
-
+.nav{
+    float: right;
+}
 .nav a , #hero, #cta{
     color:#F8F9FA;
 }
 #header{
     background-color: #386641;
     color: #90a955;
-    height:60px:
+    height:40px;
+    padding:15px;
 }
 a{
     text-decoration: none;   
 }
 #hero{
-    text-decoration: none;
+    font-size:22px;
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+    margin-bottom:10%;
 }
 #hero h1{
     font-size:80px;
 }
 
 a:hover{
-    text-decoration: underline
+    text-decoration: underline;
 }
 #cta{
   background-color:#386641;
@@ -36,10 +45,49 @@ a:hover{
     color:#5D6C25;
 }
 
-#prouducts{
+.button{
+    display:block;
+    width:fit-content;
+    padding:10px 20px 10px 20px;
+    border-radius:8px;
+    border-width:5px;
+    border-style: solid;
+}
+
+#services{
     background-color:#90a955;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:20vh 40px 20vh 40px;
+}
+
+#testimonals {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:20vh 40px 20vh 40px;
+}
+
+.quote::before, .quote::after{
+    content: "\"";
+    font-size:30px;
+    font-weight:bolder;
+}
+
+.attribution::before{
+    content:"-";
 }
 
 .card{
     background-color: #F8F9FA;
+    color:#386641;
+    width:20%;
+    padding:10px 20px 10px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    border-radius:8px;
+    box-shadow: 5px 5px 20px #383838;
 }
